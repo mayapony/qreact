@@ -42,7 +42,6 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^8.0.0",
     "babel": "^6.5.2",
     "babel-core": "^6.24.0",
     "babel-eslint": "^8.2.2",
@@ -62,17 +61,13 @@
     "eslint": "^4.1.0",
     "eslint-plugin-jest": "^21.7.1",
     "eslint-plugin-react": "^7.0.0",
-    "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.7",
     "html-webpack-plugin": "^3.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^20.0.0",
     "json-loader": "^0.5.4",
-    "less": "^3.0.0",
-    "less-loader": "^4.0.3",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
-    "offline-plugin": "^5.0.0",
     "postcss-loader": "^2.0.3",
     "preact-jsx-chai": "^2.2.1",
     "raw-loader": "^0.5.1",
@@ -82,7 +77,6 @@
     "sinon": "^4.2.1",
     "sinon-chai": "^2.9.0",
     "source-map-loader": "^0.2.1",
-    "style-loader": "^0.21.0",
     "url-loader": "^1.0.0",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.4.4"
