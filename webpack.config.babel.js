@@ -1,7 +1,7 @@
-import webpack from 'webpack';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 import path from 'path';
+import webpack from 'webpack';
 const ENV = process.env.NODE_ENV || 'development';
 
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
 	resolve: {
 		extensions: ['.jsx', '.js'],
 		modules: [
-			path.resolve(__dirname, "src/lib"),
+			path.resolve(__dirname, "src/lib/preact@8bd2240"),
 			path.resolve(__dirname, "node_modules"),
 			'node_modules'
 		],
